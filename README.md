@@ -1,5 +1,5 @@
 # DataVault
-Docker Compose to build a Data Vault + Star Schema + Information Mart from AdventureWorks.
+Docker Compose builds a Data Vault + Star Schema + Information Mart from AdventureWorks.
 
 To make it work just download the repo and run ```docker-compose up```.
 
