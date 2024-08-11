@@ -1,0 +1,12 @@
+version: '2'
+services:
+  db:
+    build: ./
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: postgres!@
+    ports:
+      - '5432:5432'
+
+
+      
