@@ -1,8 +1,7 @@
+-------------------------------------
+-- Start creating AdventureWorks
+-------------------------------------
 
--- -- Disconnect all other existing connections
--- SELECT pg_terminate_backend(pid)
---   FROM pg_stat_activity
---   WHERE pid <> pg_backend_pid() AND datname='Adventureworks';
 
 \pset tuples_only on
 
